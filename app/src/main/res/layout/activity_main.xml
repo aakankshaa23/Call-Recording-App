@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#22181C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Call Recording App"
+        android:textColor="#2FE6DE"
+
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#2FE6DE"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="First Give the permissions\n\nA popup will come everytime a call is made\n\nClick on record button to record call\n\nclick on OK to close the popup\n\nAll recordings are saved to phone under Alarm Folder\n"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/round"
+        android:id="@+id/click"
+        android:text="click to see the list of recordings"/>
+</LinearLayout>
